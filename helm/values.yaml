@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: frensh/gss-fe
+  repository: <YOUR REPO>
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: latest
