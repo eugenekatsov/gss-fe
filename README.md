@@ -1,7 +1,7 @@
 # gss-fe
 Front end for testing gss [go sample service](https://github.com/eugenekatsov/gss)
 
-The frontend and backend are located in individual pods. Nginx on the front end serves up the react page with requests to the backend being proxied to the backend's internal service name.
+The frontend and backend are located in individual pods. Nginx on the front end serves up the react page with requests to the backend being proxied to the backend's internal DNS name.
 
 This is meant to be a quick way to prototype any frontend and backend code with the benefit of being run in an albeit reduced k8s cluster.
 
