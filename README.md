@@ -26,6 +26,7 @@ You'll need the following:
 8. Run `minikube service <YOUR SERVICE NAME> --url` to get the url
 9. The frontend has some buttons for the fake CRUD calls
 10. To see some logs use `stern <YOUR POD NAME>`
+11. To have a general overview of your cluster: `minikube dashboard`
 
 
 
