@@ -1,5 +1,5 @@
 # gss-fe
-Front end for testing gss [go sample service](https://github.com/eugenekatsov/gss) or the [node sample service](https://github.com/eugenekatsov/nss).
+Front end for testing gss [go sample service](https://github.com/eugenekatsov/gss) or the [node sample service](https://github.com/eugenekatsov/nss). Either can be swapped out by changing the internal DNS name in nginx.conf from `gss` to `nss` and back.
 
 The frontend and backend are located in individual pods. Nginx on the front end serves up the react page with requests to the backend being proxied to the backend's internal DNS name.
 
